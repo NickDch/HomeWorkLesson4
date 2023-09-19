@@ -1,1 +1,79 @@
-https://github.com/NickDch/HomeWorkLesson4.git
+package homework;
+
+	public class Homework4 {
+	public static void main(String[] args) {
+		
+		short a = -250;
+		short b = 250;
+		int c = 4589498;
+		double d=10000000000000000000D;
+		long e=-9000000000000000000L;
+		
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		System.out.println(e);
+		
+		
+		int f = 43112;
+		int g = -1357674;
+		int h = 1357674;
+		int i = -1357674000;
+		int j = 365895000;
+		
+		System.out.println(f);
+		System.out.println(g);
+		System.out.println(h);
+		System.out.println(i);
+		System.out.println(j);
+		
+		float k = 4.9876543f;
+		double l = 7.123456789012345678890d;
+		double m = 18398456438583853.25d;
+		double n = 18398458438583853.39875937284928422D;
+		
+		System.out.println(k);
+		System.out.println(l);
+		System.out.println(m);
+		System.out.println(n);
+		
+		
+		
+		String myName = "Nikolay";
+		String myFamilyName = "Dochov";
+		int myAge=33;
+		
+		String friendName = "Krasi";
+		String friendFamilyName = "Vrachanski";
+		int friendAge = 35;
+		
+		
+		System.out.println(myName);
+		
+		System.out.println(myName.equals(friendName));
+		System.out.println(myName.equalsIgnoreCase(friendName));
+		System.out.println(myName.compareTo(friendName));
+		
+		System.out.println(myName.concat(myFamilyName));
+		System.out.println(myName+myFamilyName+myAge);
+		
+		System.out.println(friendName.concat(friendFamilyName));
+		System.out.println(friendName+friendFamilyName+friendAge);
+		
+		
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
